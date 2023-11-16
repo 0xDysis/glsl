@@ -9,7 +9,7 @@ var vertexShaderSource = `
 `;
 
 var fragmentShaderSource = `
-    precision mediump float;
+    precision lowp float;
     uniform vec2 iResolution;
     uniform float iTime;
     void main() {
